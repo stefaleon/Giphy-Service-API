@@ -6,3 +6,7 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 ### 01 Create project
 
 * New ASP.NET Core Web Aplication -> Empty
+
+### 02 Add and use MVC
+
+* Edit Startup.cs -> AddMvc, UseMvc
