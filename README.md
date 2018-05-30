@@ -58,3 +58,8 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 * Await a call to GetAsync on the Http client.
 * Read the response content as a string.
 * Using Newtonsoft.Json, deserialize the response in order to return the appropriate GiphyModel object.
+
+
+### 12 DataContract for Data
+
+* Set DataContract and DataMember decorators in the Data class in order to have the DataContractSerializer get the appropriate string from the data object, defined by Name.
