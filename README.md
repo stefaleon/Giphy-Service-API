@@ -10,3 +10,8 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 ### 02 Add and use MVC
 
 * Edit Startup.cs -> AddMvc, UseMvc
+
+
+### 03 GiphyController
+
+* Add the Controllers folder and the Giphy empty API Controller.
