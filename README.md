@@ -21,3 +21,8 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 ### 05 Giphy.Libs
 
 * Add a .NET Core Class Library project
+
+### 06 Services
+
+* Add the Services folder, the GiphyService class and the IGiphyService interface 
+* In the GiphyService dependencies, add a reference to the Giphy.Libs
