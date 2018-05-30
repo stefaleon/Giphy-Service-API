@@ -48,3 +48,13 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 ### 10 IGetRandomGif
 
 * Add the declaration for the ReturnRandomGifBasedOnTag method in IGetRandomGif.
+
+
+### 11 GetRandomGif
+
+* Create the GetRandomGif class that implements the IGetRandomGif interface.
+* Define the giphyKey string and assign a key [acquired by the Giphy API](https://developers.giphy.com/dashboard/).
+* Set a url string according to the Giphy API documentation instructions.
+* Await a call to GetAsync on the Http client.
+* Read the response content as a string.
+* Using Newtonsoft.Json, deserialize the response in order to return the appropriate GiphyModel object.
