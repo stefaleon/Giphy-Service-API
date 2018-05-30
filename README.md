@@ -15,3 +15,6 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 ### 03 GiphyController
 
 * Add the Controllers folder and the Giphy empty API Controller.
+
+### 04 GetRandomGif
+

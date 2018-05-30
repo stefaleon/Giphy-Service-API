@@ -7,9 +7,21 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GiphyService.Controllers
 {
-    [Produces("application/json")]
-    [Route("api/Giphy")]
+    
     public class GiphyController : Controller
     {
+        private readonly IGiphyService _giphyService;
+
+        public GiphyController(IGiphyService giphyService)
+        {
+            _giphyService = giphyService;                
+        }
+
+        public async Task<IActionResult> GetRandomGif(string searchCriteria)
+        {
+            var result = await _giphyService.GetRandomGifBasedOnSearchCriteria(searchCriteria);
+
+            return Ok(result);
+        }
     }
 }
