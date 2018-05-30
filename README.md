@@ -37,3 +37,9 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 ### 08 IGiphyService
 
 * Add the declaration for the GetRandomGifBasedOnSearchCriteria method in IGiphyService.
+
+
+### 09 GiphyService
+
+* Implement the IGiphyService interfae in the GiphyService class.
+* The GetRandomGifBasedOnSearchCriteria implementation now calls the ReturnRandomGifBasedOnTag method from the IGetRandomGif interface (not implemented yet). 
