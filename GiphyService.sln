@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiphyService", "GiphyService\GiphyService.csproj", "{582E8331-F76E-49A1-A15F-48A723F4BB6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Giphy.Libs", "Giphy.Libs\Giphy.Libs.csproj", "{8D2BF048-0FD7-4AE5-957D-45C7BF4FE9A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{582E8331-F76E-49A1-A15F-48A723F4BB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{582E8331-F76E-49A1-A15F-48A723F4BB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{582E8331-F76E-49A1-A15F-48A723F4BB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2BF048-0FD7-4AE5-957D-45C7BF4FE9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2BF048-0FD7-4AE5-957D-45C7BF4FE9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2BF048-0FD7-4AE5-957D-45C7BF4FE9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2BF048-0FD7-4AE5-957D-45C7BF4FE9A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

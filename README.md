@@ -18,3 +18,6 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 
 ### 04 GetRandomGif
 
+### 05 Giphy.Libs
+
+* Add a .NET Core Class Library project
