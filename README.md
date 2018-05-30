@@ -33,3 +33,7 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 * Add the Models folder and the GiphyModel and Data model classes.
 * The GiphyModel class has the Data property which is an IEnumerable of Data.
 * The Data class has the EmbedUrl string property that corresponds to the embed_url key in the JSON response.
+
+### 08 IGiphyService
+
+* Add the declaration for the GetRandomGifBasedOnSearchCriteria method in IGiphyService.

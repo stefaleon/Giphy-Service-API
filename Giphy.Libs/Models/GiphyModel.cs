@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Giphy.Libs.Models
 {
-    class GiphyModel
+    public class GiphyModel
     {
         public IEnumerable<Data> Data { get; set; }
     }
