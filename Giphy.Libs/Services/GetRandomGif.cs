@@ -16,8 +16,7 @@ namespace Giphy.Libs.Services
 
             using (var client = new HttpClient())
             {
-                var url = new Uri($"http://api.giphy.com/v1/gifs/search?api_key=" + $"{giphyKey}@q={searchCriteria}&limit=5");
-
+                var url = new Uri($"http://api.giphy.com/v1/gifs/search?api_key=" + $"{giphyKey}&q={searchCriteria}&limit=1");                
                 var response = await client.GetAsync(url);
 
                 string json;

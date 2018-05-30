@@ -65,7 +65,32 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 * Set DataContract and DataMember decorators in the Data class in order to have the DataContractSerializer get the appropriate string from the data object, defined by Name.
 
 
-### 13 Set the route 
+### 13 Set the route
 
 * In GiphyController add the HttpGet and Route decorators to the GetRandomGif call. 
 * Set the route to "random/{searchCriteria}"
+
+
+### 14 ConfigureServices
+
+* Implement dependency injection. Bind our interfaces to our classes so that they are injected and thus can be used in each class. Add them as singletons in the ConfigureServices section of the Startup class.
+
+
+### API usage
+
+Now we can run the project. Our API service is calling the Giphy API and responds to GET requests on the `http://APP_HOST:APP_PORT/random/SEARCH_TERM` route.
+
+#### Example
+
+Request: `GET http://localhost:50833/random/monkey`
+
+Response: 
+```
+{
+    "data": [
+        {
+            "embed_url": "https://giphy.com/embed/dchERAZ73GvOE"
+        }
+    ]
+}
+```
