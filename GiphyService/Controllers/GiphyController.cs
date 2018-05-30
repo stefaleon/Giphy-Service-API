@@ -18,6 +18,8 @@ namespace GiphyService.Controllers
             _giphyService = giphyService;                
         }
 
+        [HttpGet]
+        [Route("random/{searchCriteria}")]
         public async Task<IActionResult> GetRandomGif(string searchCriteria)
         {
             var result = await _giphyService.GetRandomGifBasedOnSearchCriteria(searchCriteria);

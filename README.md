@@ -63,3 +63,9 @@ by [Daniel Donbavand](https://danieldonbavand.com/)
 ### 12 DataContract for Data
 
 * Set DataContract and DataMember decorators in the Data class in order to have the DataContractSerializer get the appropriate string from the data object, defined by Name.
+
+
+### 13 Set the route 
+
+* In GiphyController add the HttpGet and Route decorators to the GetRandomGif call. 
+* Set the route to "random/{searchCriteria}"
